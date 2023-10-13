@@ -1,5 +1,5 @@
 #!bin/bash
-
+cd $HOME
 sudo apt update && sudo apt upgrade -y
 sudo apt install unzip
 wget -O get-docker.sh https://get.docker.com 
